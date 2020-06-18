@@ -8,12 +8,18 @@
 a {
     text-decoration: none;
     color: #111;
+    
+}
+
+li {
+    list-style: none;
 }
 
 .b {
     text-align: right;
     margin-bottom: 30px;
 }
+
 .ud {
     text-decoration: underline;
 
@@ -38,12 +44,12 @@ a {
 
 .main {
     position: relative;
+    overflow: scroll;
+    height: 100vh;
+    padding: 50px; 
+    flex: 2;    
 
     -webkit-box-shadow: -2px 3px 5px 2px rgba(0,0,0,0.49); 
-    box-shadow: -2px 3px 5px 2px rgba(0,0,0,0.49);
-    
-    padding: 50px; 
-    flex: 2;   
-    
+    box-shadow: -2px 3px 5px 2px rgba(0,0,0,0.49);     
 }
 
