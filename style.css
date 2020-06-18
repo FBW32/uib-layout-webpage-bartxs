@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+    
+}
+
+li {
+    list-style: none;
+}
+
+.b {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.ud {
+    text-decoration: underline;
+
+}
+
+.parent {
+    display: flex;    
+    padding: 30px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-decoration: none;
+    
+}
+
+.menu {
+    position: relative;
+    padding: 50px;
+    flex: 1;  
+     
+    
+}
+
+.main {
+    position: relative;
+    overflow: scroll;
+    height: 100vh;
+    padding: 50px; 
+    flex: 2;    
+
+    -webkit-box-shadow: -2px 3px 5px 2px rgba(0,0,0,0.49); 
+    box-shadow: -2px 3px 5px 2px rgba(0,0,0,0.49);     
+}
+
